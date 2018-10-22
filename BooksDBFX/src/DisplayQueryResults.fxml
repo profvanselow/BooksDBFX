@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DisplayQueryResultsController">
+   <top>
+      <ComboBox fx:id="queryComboBox" maxWidth="1.7976931348623157E308" onAction="#querySelected" prefHeight="25.0" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
